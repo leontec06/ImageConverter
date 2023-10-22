@@ -10,8 +10,7 @@ cv2.imshow("grayscale",in_img)
 cv2.waitKey(0)
 rows, cols = in_img.shape
 divisor = 18 #18 für Trooper.jpg, 30 für david_yellow.png&Luke_Skywalker.png
-xPath = [0]
-yPath = [0]
+
 
 
 fh.halftone(in_img, divisor)
