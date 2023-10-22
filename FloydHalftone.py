@@ -3,7 +3,7 @@ def halftone(img, divisor=5):
     for i in range(rows):
         for j in range(cols):
             k = img[i, j]  # i ist der y-Wert (von oben nach unten) und j der x-Wert (von links nach rechts)
-            # print(k)
+            
             if k >= 128:
                 diff = 255 - k
                 img[i, j] = 255 #aktueller Pixel wird weiss gesetzt
