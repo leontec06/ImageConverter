@@ -10,7 +10,6 @@ cv2.imshow("grayscale",in_img)
 cv2.waitKey(0)
 rows, cols = in_img.shape
 divisor = 18 #18 für Trooper.jpg, 30 für david_yellow.png&Luke_Skywalker.png
-regionSize = 5
 xPath = [0]
 yPath = [0]
 
